@@ -1,0 +1,12 @@
+.container-fluid{
+    border: 5px dotted aqua;
+}
+.container{
+    border: 5px dotted orange;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+}
+
