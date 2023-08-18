@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link (Bootstrap) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
+
+  <!-- Link CSS (Próprio) -->
+  <link rel="stylesheet" href="css/styles.css">
+
+    <title>Register</title>
+</head>
+<body>
+  <!-- Digitar programa (Aqui) -->
+  <div class="container col-11 col-md-9" id="form-container">
+    <!-- Cria um container responsivo com largura personalizada em diferentes breakpoints -->
+    <div class="row gx-5">
+      <!-- Cria uma lista com espaçamento horizontal personalizado -->
+      <div class="col-md-6">
+        <!-- Cria uma coluna responsiva para dispositivos médios -->
+        <h2>Realize o cadastro</h2>
+        <!-- Cria cabeçalho de segundo nível -->
+        <form>
+          <!-- Cria um formulário -->
+          <div class="form-floating mb-3">
+            <!-- Cria um campo de formulário com estilo de flutuação e margem inferior -->
+            <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome">
+            <!-- Cria um campo de entrada de nome -->
+            <label for="name" class="form-label" >Digite seu nome</label>
+            <!-- Cria um rótulo para o campo de email -->
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Digite sueu Sobrenome">
+            <label for="lastname" class="form-label" >Digite seu sobrenome</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <!-- Cria um campo de formulário com estilo de flutuação e margem inferior -->
+            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
+            <!-- Cria um campo de entrada de email -->
+            <label for="email" class="form-label" >Digite seu email</label>
+            <!-- Cria um rótulo para o campo de email -->
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
+            <label for="password" class="form-label" >Digite sua senha</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="Confirme sua senha">
+            <label for="password" class="form-label" >Confirme sua senha</label>
+          </div>
+          <div class="mb-3">
+            <div class="form-check mb-2">
+              <!-- Cria um checkbox com estilo de formulário -->
+              <input class="form-check-input" type="checkbox" value="" id="agree-term">
+              <label class="form-check-label" for="agree-term">
+                Você aceita os <a href="#">termos de serviço</a>?
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="newsletter" checked>
+              <label class="form-check-label" for="newsletter">
+                Deseja receber as nossas Newaletters?
+              </label>
+            </div>
+          </div>
+          <input type="submit" class="btn btn-primary botao" value="Cadastrar">
+          <!-- Cria um botão de envio do formulário com estilo primário -->
+        </form>
+        <!-- Fim do formulário -->
+      </div>
+      <!-- Fim da coluna de cadastro -->
+      <div class="col-md-6">
+        <!-- Cria uma coluna responsiva para dispositivos médios -->
+        <div class="row align-items-center">
+          <!-- Cria uma linha com elementos alinhados verticalmente-->
+          <div class="col-12">
+          <img src="img/sign_up.svg" alt="Hello New Costumer" class="img-fluid">
+          <!-- Cria uma imagem responsiva ocupando toda a largura disponível-->
+          </div>
+          <!-- Fim da coluna de imagem -->
+          <div class="col-12" id="link-container">
+            <!-- Cria uma coluna ocupando 12 colunas em todos os brakpoints  com um ID "link-container"-->
+          <a href="login.html">Eu já tenho cadastro</a>
+          <!-- Cria um link para a página "login.html"-->
+          </div>
+          <!-- Fim da coluna do link -->
+        </div>
+        <!-- Fim da linha com elementos alinhados verticalmente -->
+      </div>
+      <!-- Fim da coluna da seção de imagem e link -->
+    </div>
+    <!-- Fim da linha de conteúdo -->
+  </div>
+  <!-- Fim do container -->
+
+</body>
+</html>
