@@ -423,3 +423,139 @@ body {
     width: 90px;
     margin: 2em auto;
 }
+
+/* _______________________________________________________________ */
+/* GALLERY */
+
+/* Estilos para os containers das imagens */
+#gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #0d0d0d;
+}
+
+/* Estilos ao passar o mouse sobre as imagens */
+#gallery .image-container:hover {
+    border-color: #976df2;
+}
+
+/* Define a imagem de fundo de cada container */
+#insta1 {
+    background-image: url('../img/insta1.jpg');
+}
+#insta2 {
+    background-image: url('../img/insta2.jpg');
+}
+#insta3 {
+    background-image: url('../img/insta3.jpg');
+}
+#insta4 {
+    background-image: url('../img/insta4.jpg');
+}
+#insta5 {
+    background-image: url('../img/insta5.jpg');
+}
+#insta6 {
+    background-image: url('../img/insta6.jpg');
+}
+
+/* _______________________________________________________________ */
+/* FOOTER */
+
+/* Linha dos links no rodapé */
+#footer-links-container {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#footer .footer-column {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Para as colunas do rodapé em telas maiores */
+@media(min-width: 795px) {
+    #footer .footer-column{
+        padding: 5em 2 em;
+    }
+}
+
+#footer-links-container h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#footer-links-container li{
+    font-size: .8em;
+    text-align: center;
+}
+
+#footer-links-container li a{
+    text-decoration: none;
+}
+
+#footer-links-container li a:hover{
+    color: #976df2;
+}
+
+#footer-center{
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+#footer-center h3{
+    font-weight: 900;
+}
+
+#footer-center .store-phone{
+    color: #976df2;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: -15px;
+}
+
+#newsletter-container{
+    background-color: #0d0d0d;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+#news-form{
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+#news-form i{
+    font-size: 1.5em;
+}
+
+#news-form .btn{
+    color: #fff;
+}
+
+#social-container{
+    margin: 20px auto;
+}
+
+#social-container i{
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #f2f2f2;
+    transition: .3s;
+}
+
+#social-container i:hover{
+    color: #976df2;
+}
+
+#copy-container{
+    text-align: center;
+    padding: 30px;
+}
