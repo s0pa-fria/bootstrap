@@ -270,3 +270,121 @@ body {
 #mini-banners #mini-banner-3 a:hover {
     color: #976df2;
 }
+
+/* ________________________________________________________ */
+/* BEST SELLERS */
+
+/* Define altura e ajusta o redimento das imagens nos cartões*/
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Define espaçamento interno para a seção de best sellers */
+#best-sellers {
+    padding: 4em 0;
+}
+
+/* Remove margens horizontais para a linha de produtos */
+#best-sellers .row {
+    margin: 0;
+}
+
+/* Ajusta o espaçamento interno das colunas dos produtos */
+#best-sellers .col-md-3 {
+    padding: 0;
+}
+
+/* Estilo para o título da seção */
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* Media query para telas com largura mínima de 768px */
+@media(min-width: 768px) {
+    /* Ajusta o alinhamento do título para a esquerda */
+    .title {
+        text-align: left;
+    }
+}
+
+/* Estilo para os preços */
+.original-price {
+    font-size: 18px;
+    color: #f2f2f2;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.discount-price {
+    font-size: 24px;
+    color: #976df2;
+}
+
+/* Estilo para os cartões de produtos */
+.card {
+    text-align: center;
+    border-radius: 0;
+}
+
+/* Ajusta a imagem nos cartões */
+.card img {
+    width: 140px;
+    margin: 2em auto;
+}
+
+/* Estilos para a categoria do produto nos cartões */
+.card .card-category {
+    font-size: .8rem;
+}
+
+/* Estilo para texto nos cartões */
+.card .card-text {
+    margin: 2em 0;
+    font-weight: bold;
+}
+
+/* botões de compra */
+.btn {
+    background-color: transparent;
+    border-color: #976df2;
+}
+
+/* Hover para os botões de compra */
+.btn:hover {
+    background-color: #976df2;
+    border-color: #976df2;
+}
+
+/* ________________________________________________________ */
+/* BOTTOM BANNER */
+
+/* Define cor de fundo, espaçamento interno e margens para o banner*/
+#bottom-banner {
+    background-color: #0d0d0d;
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+/* Define estilo para subtítulo da oferta e título */
+#bottom-banner .offer-subtitle, #bottom-banner h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Define estilo para o botão */
+#bottom-banner img {
+    max-width: 175px;
+}
+
+/* Media query para telas com largura mínima de 768px */
+@media(min-width: 768px) {
+    #bottom-banner h2 {
+        font-size: 5em;
+    }
+}
+/* ________________________________________________________ */
