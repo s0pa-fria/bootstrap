@@ -29,55 +29,91 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <!-- Primeira barra de navegação -->
-  <nav class="navbar navbar-expand-lg destaque py-4 px-2" id="navbar">
-    <div class="container">
-      <!-- Marca ou Logo -->
-      <a class="navbar-brand" href="#">PerfectWatch</a>
+ <!-- Primeira da barra de navegação -->
+ <nav class="navbar navbar-expand-lg destaque py-4 px-2" id="navbar">
+  <div class="container">
+    <!-- Marca ou logo -->
+    <a class="navbar-brand" href="#">PerfectWatch</a>
 
-      <!-- Itens da barra de navegação -->
-      <div id="navbar-items">
-        <div></div><!-- Espaço vazio para fazer a divisão do layout -->
+    <!-- Itens da barra de navegação -->
+    <div id="navbar-items">
+      <div></div> <!--Espaço vazio, usado para fazer a divisão do layout-->
 
-        <!-- Formulário de Busca -->
-        <form class="d-flex" id="search-form">
-          <i class="bi bi-search primary-color"></i> <!-- Icone de pesquisa -->
-          <input class="form-control me-2" type="search" placeholder="Busque o relógio..." aria-label="Search">
-          <button class="btn secondary-bg-color" type="submit">Pesquisar</button>
-        </form>
+      <!-- Formulário de busca -->
+      <form class="d-flex" id="search-form">
+        <i class="bi bi-search primary-color"></i> <!-- Icone de pesquisa-->
+        <input class="form-control me-2" type="search" placeholder="Busque o seu relógio..." aria-label="Search">
+        <button class="btn secondary-bg-color"  type="submit">Pesquisar</button>
+      </form>
 
-        <!-- Ícones da barra de navegação -->
-        <ul class="navbar-nav mb-2 mb-lg-0" >
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="bi bi-heart"></i> <!-- link pra favoritos -->
-            </a>
-            <span class="qty-info">5</span> <!-- Quantidade de intens (ex: favoritos)-->
-          </li>
-          <li class="nav-item" id="bag-item">
-            <a class="nav-link" href="#">
-              <i class="bi bi-bag"></i> <!-- Link para carrinho -->
-              <b>R$ 1290,12</b> <!-- Valor total do carrinho -->
-            </a>
-            <span class="qty-info">8</span> <!-- Quantidade de itens no carrinho -->
-          </li>
-        </ul>
-      </div>
+      <!-- ícones da barra de navegação -->
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="bi bi-person"></i> <!-- Link para perfil de usuario-->
+        </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        <i class="bi bi-heart"></i> <!-- Link para favoritos-->
+        </a>
+        <span class="qty-info">5</span> <!--Quantidade de itens (ex:favoritos)-->
+      </li>
+      <li class="nav-item" id="bag-item">
+        <a class="nav-link" href="#">
+          <i class="bi bi-bag"></i> <!--Link para o carrinho-->
+          <b>R$ 1290,12</b> <!--Valor total acrrinho-->
+        </a>
+        <span class="qty-info">8</span> <!--Quantidade de itens (ex:carrinho)-->
+      </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+ </nav>
 
-  <!-- Barra de Navegação Inferior -->
-  <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
-    <div class="container">
-      <!-- Botão para mostrar/esconder o menu  -->
-      <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar" aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bi bi-list"></i> <!-- Ícone de lista (Para menu mobile)-->
-      </button>
+ <!-- Barra de navegaçõ inferior -->
+ <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
+  <div class="container">
+    <!-- Botão para mmostrar/esconder o menu -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar" aria-controls="bottom-navbar" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <i class="bi bi-list"></i> <!--Ícone de lista-->
+  </button>
 
-      <!-- Itens do menu de navegação inferior -->
-    </div>
-  </nav>
+  <!-- Itens do menu de navegação ineferior -->
+  <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
+    <li class="nav-item sobre">
+      <a class="nav-link" href="#">
+        Home
+      </a>
+    </li>
 
+    <li class="nav-item sobre">
+      <a class="nav-link" href="#">
+        Produtos
+      </a>
+    </li>
+
+    <li class="nav-item sobre">
+      <a class="nav-link" href="#">
+        Promoções
+      </a>
+    </li>
+
+    <li class="nav-item sobre">
+      <a class="nav-link" href="#">
+        Blog
+      </a>
+    </li>
+
+    <li class="nav-item sobre">
+      <a class="nav-link" href="#">
+        Contato
+      </a>
+    </li>
+  </ul>
+  </div>
+ </nav>
 
 </body>
 </html>
